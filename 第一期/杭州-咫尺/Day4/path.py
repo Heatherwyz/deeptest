@@ -22,7 +22,8 @@ if __name__ == '__main__':
     print("目录和文件名分割：",end="")
     print(os.path.split(path))
     # 分离文件名和扩展名
-    print("文件名和扩展名分离：%s"%os.path.splitext(path))
+    print("文件名和扩展名分离：", end="")
+    print(os.path.splitext(path))
     # 获取文件名
     print("文件名为：%s"%os.path.basename(path))
     # 获取文件所在目录
