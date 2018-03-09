@@ -1,0 +1,18 @@
+【2018年2月27日】
+#jmeter#
+CSV Data Set Config
+线程组每执行一次取一次参数，下一次执行取CSV里的下一行参数
+#Git#
+提交步骤:
+编辑文件
+git add . 
+git commit -m "comment" 
+git push
+【2018年2月28日】
+判断字符串是否是数字：str.isdigit()
+生成随机整数：random.randint(start,end)
+【2018年3月6日】
+tuple用小括号()标识，元组的元素不可修改
+字典Dictionary用中括号标识，其元素为key-value对应，key与value用冒号:分割开
+字典的key是唯一不可重复的，可以是数字，字符串，元组，但是不能是列表
+values可以是任何类型的对象
